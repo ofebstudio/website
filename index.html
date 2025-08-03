@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="O'FEB Studio in Chennai offers premium wooden, acrylic, glass, and custom photo frames to beautify your spaces.">
   <title>O'FEB Studio - Premium Frames in Chennai</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -34,12 +33,6 @@
       text-decoration: none;
       font-weight: bold;
     }
-    marquee {
-      background-color: #f3a734;
-      color: #000;
-      font-weight: bold;
-      padding: 10px;
-    }
     section {
       padding: 2rem 1rem;
       max-width: 1000px;
@@ -58,10 +51,6 @@
       border-radius: 10px;
       text-align: center;
       font-weight: bold;
-      transition: transform 0.3s;
-    }
-    .products li:hover {
-      transform: scale(1.05);
     }
     .gallery img {
       width: 100%;
@@ -113,8 +102,10 @@
       font-weight: bold;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    @media(max-width:600px){
-      .whatsapp-btn { padding: 10px 15px; font-size: 0.9rem; }
+    .marquee-text {
+      color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
     }
   </style>
 </head>
@@ -125,6 +116,8 @@
     <p>Premium Custom Frames - Chennai</p>
   </header>
 
+  <marquee class="marquee-text" scrollamount="6">Welcome to O'FEB Studio - Bringing Your Memories to Life with Premium Custom Frames!</marquee>
+
   <nav>
     <a href="#about">About</a>
     <a href="#products">Products</a>
@@ -132,10 +125,6 @@
     <a href="#inquiry">Inquiry</a>
     <a href="#contact">Contact</a>
   </nav>
-
-  <marquee behavior="scroll" direction="left" scrollamount="6">
-    Welcome to O'FEB Studio — Premium Custom Frames in Chennai | Wooden, Acrylic, Glass, Personalized Prints & More! Contact: 9789989101
-  </marquee>
 
   <section id="about">
     <h2>About Us</h2>
@@ -148,45 +137,42 @@
   <section id="products" class="products">
     <h2>Our Frame Collection</h2>
     <ul>
-      <li>Wooden Frames <br><img src="wooden frame.jpg.jpeg" alt="Wooden Frame" width="80" height="80"> </li>
-      <li>Acrylic Frames <br><img src="acyrilic.jpg.jpeg" alt="Acrylic Frame" width="80" height="80"> </li>
-      <li>Glass Frames <br><img src="glass.jpeg" alt="Glass Frame" width="80" height="80"></li>
-      <li>Customized <br><img src="cus.jpeg" alt="Customized Frame" width="90" height="80"></li>
-      <li>Photo Prints <br><img src="print.jpg.jpeg" alt="Photo Prints" width="80" height="80"></li>
+      <li>Wooden Frames <img width="80x80" src="wooden frame.jpg.jpeg" alt=""> </li>
+      <li>Acrylic Frames <img width="80x80" src="acyrilic.jpg.jpeg" alt=""> </li>
+      <li>Glass Frames <img width="80x80" src="glass.jpeg" alt=""></li>
+      <li>Customized <img width="90x80" src="cus.jpeg" alt=""></li>
+      <li>Photo Prints <img width="80x80" src="print.jpg.jpeg" alt=""></li>
     </ul>
   </section>
 
   <section id="gallery" class="gallery">
     <h2>Frame Gallery</h2>
-    <p>(Our special edition):</p> 
+    <p> (Our special edition):</p> 
     <div style="display:flex; flex-wrap:wrap; justify-content:center;">
       <img src="logo1.jpg.jpeg" alt="Frame Sample 1"/>
       <img src="logo2.jpg.jpeg" alt="Frame Sample 2"/>
       <img src="logo.jpg.jpeg" alt="Frame Sample 3"/>
       <img src="cycle.jpg.jpeg" alt="Frame Sample 4">
-      <img src="car.jpg.jpeg" alt="Frame Sample 5">
-      <img src="3d.jpg.jpeg" alt="Frame Sample 6">
-      <img src="andrew.jpg.jpeg" alt="Frame Sample 7" width="60" height="40">
+       <img src="car.jpg.jpeg" alt="Frame Sample 5">
+       <img src="3d.jpg.jpeg" alt="Frame Sample 6">
+       <img width="60x40" src="andrew.jpg.jpeg" alt="Frame Sample ">
     </div>
   </section>
 
   <section id="inquiry">
     <h2>Product Inquiry</h2>
     <form action="https://formsubmit.co/ofebstudio@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Enter your email" required>
-      <input type="text" name="phone" placeholder="Your Phone" required>
-      <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
-      <input type="hidden" name="_honey" style="display:none">
-      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
-      <input type="hidden" name="_captcha" value="false">
-      <button type="submit">Send Inquiry</button>
-    </form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="text" name="phone" placeholder="Your Phone" required>
+    <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
+    <button type="submit">Send Inquiry</button>
+</form>
   </section>
 
   <section id="contact"> 
     <h2>Contact Us</h2> 
-    <p><strong>Address:</strong> No.19/b Bharathidasan 3rd Street, Lakshmipuram, Chrompet, Chennai - 44, Tamil Nadu</p>
+    <p><strong>Address:</strong> No.19/b  Bharathidasan 3rd Street, Lakshmipuram ,Chrompet, Chennai - 44, Tamil Nadu</p>
     <p><strong>Phone:</strong> 9789989101</p>
     <p><strong>Email:</strong> ofebstudio@gmail.com</p>
     <p><strong>Instagram:</strong> @ofebstudio</p>
