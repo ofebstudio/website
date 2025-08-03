@@ -10,9 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&family=Oswald:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Georgia', serif; background-color: #fffbe6; color: #0c0c0c; }
 
@@ -129,25 +126,6 @@
       text-align: center;
       margin: 1rem 0;
     }
-    #contact {
-      text-align: center;
-      padding: 2rem;
-    }
-    #contact p {
-      margin: 0.5rem 0;
-    }
-    .signature {
-      position: fixed;
-      bottom: 10px;
-      right: 15px;
-      font-family: 'Pacifico', cursive;
-      font-size: 1.2rem;
-      color: #333;
-      background: rgba(255, 255, 255, 0.8);
-      padding: 5px 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-    }
   </style>
 </head>
 <body>
@@ -185,50 +163,76 @@
       <li>Glass Frames <img width="80x80" src="glass.jpeg" alt=""></li>
       <li>Customized <img width="90x80" src="cus.jpeg" alt=""></li>
       <li>Photo Prints <img width="80x80" src="print.jpg.jpeg" alt=""></li>
-      <li>Wall Art <img width="80x80" src="wallart.jpg.jpeg" alt=""></li>
+       <li>wall Art <img width="80x80" src="wallart.jpg.jpeg" alt=""></li>
     </ul>
   </section>
 
   <section id="gallery" class="gallery">
     <h2>Frame Gallery</h2>
-    <p>(Our special edition):</p> 
+    <p> (Our special edition):</p> 
     <div style="display:flex; flex-wrap:wrap; justify-content:center;">
       <img src="logo1.jpg.jpeg" alt="Product"/>
       <img src="logo2.jpg.jpeg" alt="Frame Sample 2"/>
       <img src="logo.jpg.jpeg" alt="Frame Sample 3"/>
       <img src="cycle.jpg.jpeg" alt="Frame Sample 4">
-      <img src="car.jpg.jpeg" alt="Frame Sample 5">
-      <img src="3d.jpg.jpeg" alt="Frame Sample 6">
-      <img width="60x40" src="andrew.jpg.jpeg" alt="Frame Sample ">
+       <img src="car.jpg.jpeg" alt="Frame Sample 5">
+       <img src="3d.jpg.jpeg" alt="Frame Sample 6">
+       <img width="60x40" src="andrew.jpg.jpeg" alt="Frame Sample ">
     </div>
   </section>
 
   <section id="inquiry">
     <h2>Product Inquiry</h2>
     <form action="https://formsubmit.co/ofebstudio@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Enter your email" required>
-      <input type="text" name="phone" placeholder="Your Phone" required>
-      <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
-      <button type="submit">Send Inquiry</button>
-    </form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="text" name="phone" placeholder="Your Phone" required>
+    <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
+    <button type="submit">Send Inquiry</button>
+</form>
   </section>
 
-  <section id="contact"> 
-    <h2>Contact Us</h2> 
-    <p><strong>Address:</strong> No.19/b Bharathidasan 3rd Street, Lakshmipuram ,Chrompet, Chennai - 44, Tamil Nadu</p>
-    <p><strong>Phone:</strong> 9789989101</p>
-    <p><strong>Email:</strong> ofebstudio@gmail.com</p>
-    <p><strong>Instagram:</strong> @ofebstudio</p>
-  </section>
+ <style>
+  #contact {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  #contact p {
+    margin: 0.5rem 0;
+  }
+
+  .signature {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+</style>
+
+<section id="contact"> 
+  <h2>Contact Us</h2> 
+  <p><strong>Address:</strong> No.19/b Bharathidasan 3rd Street, Lakshmipuram ,Chrompet, Chennai - 44, Tamil Nadu</p>
+  <p><strong>Phone:</strong> 9789989101</p>
+  <p><strong>Email:</strong> ofebstudio@gmail.com</p>
+  <p><strong>Instagram:</strong> @ofebstudio</p>
+</section>
+
+
+
+
 
   <footer>
     <p>&copy; 2025 O'FEB Studio. All rights reserved.</p>
   </footer>
 
   <a href="https://wa.me/919789989101" class="whatsapp-btn" target="_blank">📲 Chat on WhatsApp</a>
-
-  <div class="signature">Your Name</div>
 
 </body>
 </html>
