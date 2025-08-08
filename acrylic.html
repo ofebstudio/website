@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Acrylic Frames - O'FEB Studio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon.jpg.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Georgia', serif;
-      background-color: #fffbe6;
-      color: #0c0c0c;
-      padding: 2rem;
-    }
-    header, nav, footer {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    nav a {
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
-    }
-    img {
-      max-width: 300px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-    .product-description {
-      max-width: 600px;
-      margin: auto;
-      text-align: center;
-    }
-    .enquire-btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 20px;
-      background-color: #222;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
+    body { font-family: 'Georgia', serif; background-color: #fffbe6; margin: 0; padding: 0; }
+    header { background-color: #f3a734; padding: 2rem 1rem; text-align: center; }
+    h1 { font-family: 'Oswald', sans-serif; font-size: 2.5rem; letter-spacing: 2px; color: #000; }
+    section { max-width: 700px; margin: 2rem auto; padding: 1rem; background-color: #fff0c1; border-radius: 10px; }
+    form { display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 10px; font-size: 1rem; border-radius: 5px; border: 1px solid #ccc; }
+    button { background-color: #222; color: white; padding: 10px; font-size: 1rem; border: none; border-radius: 5px; cursor: pointer; }
+    .whatsapp-btn {
+      position: fixed; bottom: 20px; right: 20px;
+      background-color: #25D366; color: white;
+      padding: 15px 20px; border-radius: 50px;
+      text-decoration: none; font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>O'FEB Studio</h1>
-    <p>Premium Acrylic Frames</p>
-  </header>
+<header>
+  <h1>Acrylic Frames</h1>
+</header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="products.html">Products</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="inquiry.html">Inquiry</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<section>
+  <h2>Inquire About Acrylic Frames</h2>
+  <form action="https://formsubmit.co/ofebstudio@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="phone" placeholder="Your Phone" required>
+    <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
+    <button type="submit">Send Inquiry</button>
+  </form>
+</section>
 
-  <div class="product-description">
-    <img src="acyrilic.jpg.jpeg" alt="Acrylic Frames">
-    <h2>Acrylic Frames</h2>
-    <p>Modern, sleek and crystal-clear finish. Ideal for contemporary spaces and office displays.</p>
-    <a href="inquiry.html" class="enquire-btn">Enquire Now</a>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 O'FEB Studio. All rights reserved.</p>
-  </footer>
+<a href="https://wa.me/919789989101" class="whatsapp-btn" target="_blank">💬 Chat on WhatsApp</a>
 
 </body>
 </html>
