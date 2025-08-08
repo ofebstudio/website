@@ -3,11 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>O'FEB Studio - Premium Frames in Chennai</title>
+  <title>O'FEB Studio - Products</title>
   <link rel="icon" href="icon.jpg.jpeg">
-
-  <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -18,15 +15,10 @@
       text-align: center;
       padding: 2rem .5rem;
     }
-    header img {
-      max-width: 200px;
-      border-radius: 12px;
-    }
     header h1 {
-      font-family: 'Lobster', cursive;
       font-size: 2.5rem;
       margin-top: 1rem;
-      color: #000000;
+      color: #000;
       letter-spacing: 3px;
     }
     nav {
@@ -41,11 +33,13 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     section {
       padding: 2rem 1rem;
       max-width: 1000px;
       margin: auto;
     }
+
     .products ul {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -53,6 +47,7 @@
       list-style: none;
       padding: 0;
     }
+
     .products li {
       background-color: #fff0c1;
       padding: 1rem;
@@ -60,71 +55,21 @@
       text-align: center;
       font-weight: bold;
     }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
+
+    .products img {
+      width: 100px;
       height: auto;
-      margin: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      background: #fff0c1;
-      padding: 2rem;
-      border-radius: 10px;
-    }
-    input, textarea {
-      padding: 10px;
-      font-size: 1rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      background-color: #222;
-      color: white;
-      padding: 10px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+
     footer {
       background-color: #865d37;
       color: white;
       text-align: center;
       padding: 2rem 1rem;
       margin-top: 3rem;
-    }
-    .whatsapp-btn {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: white;
-      padding: 15px 20px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    }
-    .marquee-text {
-      color: black;
-      font-family: 'Dancing Script', cursive;
-      font-weight: bold;
-      font-size: 2rem;
-      letter-spacing: 2px;
-      white-space: nowrap;
-    }
-    .classic-slide {
-      font-family: 'Oswald', sans-serif;
-      color: black;
-      letter-spacing: 3px;
-      font-size: 2rem;
-      text-align: center;
-      margin: 1rem 0;
     }
   </style>
 </head>
@@ -135,104 +80,47 @@
     <p>Premium Custom Frames - Chennai</p>
   </header>
 
-  <marquee class="marquee-text" scrollamount="7">
-    Welcome to O'FEB Studio - Bringing Your Memories to Life with Premium Custom Frames!
-  </marquee>
-
   <nav>
-    <a href="#about">About</a>
-    <a href="#products">Products</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#inquiry">Inquiry</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="inquiry.html">Inquiry</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-      Go-to destination in Chennai for premium quality Frames, 
-      Bring your best moments to life with custom photo frames, elevate your memories and adorn your space with personalized beauty.
-    </p>
-  </section>
-
-  <section id="products" class="products">
+  <section class="products">
     <h2>Our Frame Collection</h2>
     <ul>
-      <li>Wooden Frames <img width="80x80" src="wooden frame.jpg.jpeg" alt=""> </li>
-      <li>Acrylic Frames <img width="80x80" src="acyrilic.jpg.jpeg" alt=""> </li>
-      <li>Glass Frames <img width="80x80" src="glass.jpeg" alt=""></li>
-      <li>Customized <img width="90x80" src="cus.jpeg" alt=""></li>
-      <li>Photo Prints <img width="80x80" src="print.jpg.jpeg" alt=""></li>
-       <li>wall Art <img width="80x80" src="wallart.jpg.jpeg" alt=""></li>
+      <li>
+        <a href="wooden.html">Wooden Frames</a><br>
+        <img src="wooden frame.jpg.jpeg" alt="Wooden Frame">
+      </li>
+      <li>
+        <a href="acrylic.html">Acrylic Frames</a><br>
+        <img src="acyrilic.jpg.jpeg" alt="Acrylic Frame">
+      </li>
+      <li>
+        <a href="glass.html">Glass Frames</a><br>
+        <img src="glass.jpeg" alt="Glass Frame">
+      </li>
+      <li>
+        <a href="custom.html">Customized Frames</a><br>
+        <img src="cus.jpeg" alt="Customized Frame">
+      </li>
+      <li>
+        <a href="prints.html">Photo Prints</a><br>
+        <img src="print.jpg.jpeg" alt="Photo Prints">
+      </li>
+      <li>
+        <a href="wallart.html">Wall Art</a><br>
+        <img src="wallart.jpg.jpeg" alt="Wall Art">
+      </li>
     </ul>
   </section>
-
-  <section id="gallery" class="gallery">
-    <h2>Frame Gallery</h2>
-    <p> (Our special edition):</p> 
-    <div style="display:flex; flex-wrap:wrap; justify-content:center;">
-      <img src="logo1.jpg.jpeg" alt="Product"/>
-      <img src="logo2.jpg.jpeg" alt="Frame Sample 2"/>
-      <img src="logo.jpg.jpeg" alt="Frame Sample 3"/>
-      <img src="cycle.jpg.jpeg" alt="Frame Sample 4">
-       <img src="car.jpg.jpeg" alt="Frame Sample 5">
-       <img src="3d.jpg.jpeg" alt="Frame Sample 6">
-       <img width="60x40" src="andrew.jpg.jpeg" alt="Frame Sample ">
-    </div>
-  </section>
-
-  <section id="inquiry">
-    <h2>Product Inquiry</h2>
-    <form action="https://formsubmit.co/ofebstudio@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Enter your email" required>
-    <input type="text" name="phone" placeholder="Your Phone" required>
-    <textarea name="message" rows="4" placeholder="Describe your frame needs..." required></textarea>
-    <button type="submit">Send Inquiry</button>
-</form>
-  </section>
-
- <style>
-  #contact {
-    text-align: center;
-    padding: 2rem;
-  }
-
-  #contact p {
-    margin: 0.5rem 0;
-  }
-
-  .signature {
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-    font-family: 'Pacifico', cursive;
-    font-size: 1.2rem;
-    color: #333;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 5px 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  }
-</style>
-
-<section id="contact"> 
-  <h2>Contact Us</h2> 
-  <p><strong>Address:</strong> No.19/b Bharathidasan 3rd Street, Lakshmipuram ,Chrompet, Chennai - 44, Tamil Nadu</p>
-  <p><strong>Phone:</strong> 9789989101</p>
-  <p><strong>Email:</strong> ofebstudio@gmail.com</p>
-  <p><strong>Instagram:</strong> @ofebstudio</p>
-</section>
-
-
-
-
 
   <footer>
     <p>&copy; 2025 O'FEB Studio. All rights reserved.</p>
   </footer>
-
-  <a href="https://wa.me/919789989101" class="whatsapp-btn" target="_blank">?? Chat on WhatsApp</a>
 
 </body>
 </html>
